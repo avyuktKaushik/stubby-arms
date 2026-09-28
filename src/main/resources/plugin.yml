@@ -1,0 +1,15 @@
+name: ShortReach
+version: '${project.version}'
+main: dev.example.shortreach.ShortReach
+api-version: '1.21'
+description: Temporarily shrinks every player's reach.
+commands:
+  shortreach:
+    description: Control the Short Reach event
+    usage: /shortreach <start [minutes]|stop|status|reload>
+    aliases: [sr]
+    permission: shortreach.admin
+permissions:
+  shortreach.admin:
+    description: Allows controlling Short Reach
+    default: op
