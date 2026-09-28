@@ -1,0 +1,7 @@
+# Default event length when you run /shortreach start with no number
+duration-minutes: 30
+
+# Reach (in blocks) while the event is active
+# Vanilla defaults: block = 4.5, entity (hitting mobs/players) = 3.0
+block-range: 1.0
+entity-range: 1.0
